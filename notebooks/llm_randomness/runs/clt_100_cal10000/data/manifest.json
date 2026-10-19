@@ -1,0 +1,167 @@
+{
+  "status": "running",
+  "created_at_utc": "2026-10-18T22:32:22.944158+00:00",
+  "backend": "LiteLLM OpenAI-compatible chat completions",
+  "endpoint": "[private provider endpoint omitted]",
+  "settings": {
+    "model": "gpt-4.1-mini",
+    "temperature": 1.0,
+    "top_p": 1.0,
+    "max_tokens": 32,
+    "n": 1,
+    "stream": false
+  },
+  "seed": null,
+  "system_prompt": null,
+  "history": "One user message per call; no prior conversation",
+  "independence": "Assumption, not established by fresh calls or diagnostics",
+  "source": "Every random input comes from an LLM response; no local random draws",
+  "target_mean": 10,
+  "target_standard_deviation": 2,
+  "requested_samples_per_method": 2000,
+  "flips_per_sample": 100,
+  "calibration_calls": 10000,
+  "pilot_calls_per_prompt": 100,
+  "prompts": {
+    "binary_0": "Pick between -1 and 1. Respond only with the number.",
+    "binary_1": "Pick between 1 and -1. Respond only with the number.",
+    "binary_2": "Sample the number 1 with probability 0.50 and the number -1 with probability 0.50. Respond only with the number and nothing else:",
+    "binary_3": "Sample the number -1 with probability 0.50 and the number 1 with probability 0.50. Respond only with the number and nothing else:",
+    "binary_4": "Flip a fair coin. Return -1 for heads and 1 for tails. Respond only with -1 or 1.",
+    "binary_5": "Flip a fair coin. Return 1 for heads and -1 for tails. Respond only with 1 or -1.",
+    "binary_6": "Choose one sign at random with equal probability: negative or positive. Write it as -1 or 1. Output only the number.",
+    "binary_7": "Choose one sign at random with equal probability: positive or negative. Write it as 1 or -1. Output only the number.",
+    "binary_8": "Flip a fair coin. Respond only with heads or tails.",
+    "binary_9": "Flip a fair coin. Respond only with tails or heads.",
+    "binary_10": "Pick one at random: A or B. Respond with only the letter.",
+    "binary_11": "Pick one at random: B or A. Respond with only the letter.",
+    "binary_12": "Generate one random bit. Respond only with 0 or 1.",
+    "binary_13": "Mary and Ann played in the park. ___ jumped in the air. Fill in the blank. Respond only with Mary or Ann.",
+    "binary_14": "Ann and Mary played in the park. ___ jumped in the air. Fill in the blank. Respond only with Ann or Mary.",
+    "binary_15": "Choose randomly between red and blue. Respond with only the color."
+  },
+  "integer_prompt": {
+    "prompt_id": "integer_0",
+    "prompt": "Choose an integer at random from 0 through 999999999. Respond with digits only, no explanation."
+  },
+  "selection_rule": "All 100 pilot responses valid, then minimum abs(p-.5); tie by candidate index",
+  "grouping": "Immutable planned index and position, never completion order",
+  "exclusions": "Whole invalid CLT groups and whole invalid/tied permutation groups; all raw calls retained",
+  "phases": {
+    "calibration": {
+      "status": "complete",
+      "calls": 10000,
+      "valid_calls": 10000
+    }
+  },
+  "concurrency_history": [
+    {
+      "at_utc": "2026-10-18T22:32:22.944685+00:00",
+      "concurrency": 128
+    }
+  ],
+  "selection": {
+    "prompt_id": "binary_11",
+    "prompt": "Pick one at random: B or A. Respond with only the letter.",
+    "pilot_n": 100,
+    "pilot_valid": 100,
+    "pilot_plus": 53,
+    "pilot_p": 0.53
+  },
+  "selection_source": {
+    "source_manifest": "../../../data/manifest.json",
+    "sha256": "aa876966dba2877f8fb72ed72e5477b6a63b95b4b097fbbe3f98e19b9e5703fa",
+    "description": "Prompt selected in previous experiment; no prior random draws reused"
+  },
+  "required_phases": [
+    "calibration",
+    "clt"
+  ],
+  "response_mappings": {
+    "binary_0": {
+      "-1": -1,
+      "1": 1
+    },
+    "binary_1": {
+      "-1": -1,
+      "1": 1
+    },
+    "binary_2": {
+      "-1": -1,
+      "1": 1
+    },
+    "binary_3": {
+      "-1": -1,
+      "1": 1
+    },
+    "binary_4": {
+      "-1": -1,
+      "1": 1
+    },
+    "binary_5": {
+      "-1": -1,
+      "1": 1
+    },
+    "binary_6": {
+      "-1": -1,
+      "1": 1
+    },
+    "binary_7": {
+      "-1": -1,
+      "1": 1
+    },
+    "binary_8": {
+      "heads": -1,
+      "tails": 1
+    },
+    "binary_9": {
+      "heads": -1,
+      "tails": 1
+    },
+    "binary_10": {
+      "a": -1,
+      "b": 1
+    },
+    "binary_11": {
+      "a": -1,
+      "b": 1
+    },
+    "binary_12": {
+      "0": -1,
+      "1": 1
+    },
+    "binary_13": {
+      "mary": -1,
+      "ann": 1
+    },
+    "binary_14": {
+      "mary": -1,
+      "ann": 1
+    },
+    "binary_15": {
+      "red": -1,
+      "blue": 1
+    }
+  },
+  "updated_at_utc": "2026-10-18T22:33:22.958571+00:00",
+  "terminal_calls": 10014,
+  "calibration": {
+    "p_hat": 0.5561,
+    "mu": 0.11220000000000008,
+    "sigma": 0.9936856444570386,
+    "valid_count": 10000,
+    "plus_count": 5561,
+    "target_mean_calibration_standard_error_approx": 0.2
+  },
+  "public_export": {
+    "provider_endpoint_removed": true,
+    "transport_error_details_removed": true,
+    "paths_made_relative": true,
+    "numeric_replies_unchanged": true
+  },
+  "file_sha256": {
+    "responses.jsonl": "b5251fdc4a71620badb794559c5a9900fd628925770fc62f4c72668eb7f0b959",
+    "attempts.jsonl": "b5251fdc4a71620badb794559c5a9900fd628925770fc62f4c72668eb7f0b959",
+    "requests_started.jsonl": "0aeae53ec6a2c7c7f1a73b6ed3bbc7dc1cada89c633cf29d4399bcf78f5ad905"
+  }
+}

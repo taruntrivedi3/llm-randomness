@@ -1,0 +1,10 @@
+# Python 3.11 or newer
+numpy>=1.26,<3
+pandas>=2.2,<3
+scipy>=1.12,<2
+matplotlib>=3.8,<4
+httpx>=0.27,<1
+nbformat>=5.10,<6
+nbclient>=0.10,<1
+ipykernel>=6.29,<8
+jupyterlab>=4,<5

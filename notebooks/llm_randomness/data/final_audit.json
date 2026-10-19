@@ -1,0 +1,50 @@
+{
+  "verified": true,
+  "terminal_calls": 116640,
+  "http_attempts": 116648,
+  "http_status_counts": {
+    "200": 116640,
+    "502": 4,
+    "500": 2,
+    "None": 1,
+    "503": 1
+  },
+  "phase_counts": {
+    "binary_pilot": 1600,
+    "calibration": 1000,
+    "integer_pilot": 1000,
+    "clt": 80000,
+    "permutation": 33040
+  },
+  "models": {
+    "gpt-4.1-mini-2025-04-14": 116640
+  },
+  "fingerprints": {
+    "fp_8957c4f4dd": 30123,
+    "fp_92f9364fa2": 86517
+  },
+  "total_tokens": 2997982,
+  "first_started_utc": "2026-10-18T18:59:24.104883+00:00",
+  "last_finished_utc": "2026-10-18T19:21:20.521355+00:00",
+  "elapsed_seconds_including_between_phase_analysis": 1316.416472,
+  "calibration_p_hat": 0.517,
+  "production_p_hat": 0.5577625,
+  "clt": {
+    "n": 2000,
+    "mean": 11.03181530668436,
+    "sample_standard_deviation": 2.1394422449078574,
+    "min": 3.8742887649772513,
+    "max": 17.796359753665318
+  },
+  "permutation": {
+    "n": 2000,
+    "mean": 10.022887884769283,
+    "sample_standard_deviation": 1.957420697328053,
+    "min": 3.393324420190824,
+    "max": 16.329240446636778
+  },
+  "permutation_total_groups": 3304,
+  "selected_raw_request_ids_disjoint": true,
+  "provider_response_ids_unique": true,
+  "csv_transforms_reconciled_to_raw": true
+}

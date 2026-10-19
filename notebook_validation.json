@@ -1,0 +1,32 @@
+[
+  {
+    "notebook": "numpy_baseline.ipynb",
+    "executed_code_cells": 1,
+    "embedded_plots": 1,
+    "errors": 0
+  },
+  {
+    "notebook": "agent_normal_sampling_2000.ipynb",
+    "executed_code_cells": 3,
+    "embedded_plots": 1,
+    "errors": 0
+  },
+  {
+    "notebook": "llm_clt_normal_2000.ipynb",
+    "executed_code_cells": 7,
+    "embedded_plots": 2,
+    "errors": 0
+  },
+  {
+    "notebook": "llm_clt_40flips_160000cal_2000.ipynb",
+    "executed_code_cells": 7,
+    "embedded_plots": 2,
+    "errors": 0
+  },
+  {
+    "notebook": "llm_permutation_normal_2000.ipynb",
+    "executed_code_cells": 4,
+    "embedded_plots": 1,
+    "errors": 0
+  }
+]

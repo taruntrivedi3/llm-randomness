@@ -1,0 +1,20 @@
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+.env
+provider.toml
+*.pyc
+# Large inputs are tracked as verified gzip archives.
+notebooks/llm_randomness/**/responses.jsonl
+notebooks/llm_randomness/**/attempts.jsonl
+notebooks/llm_randomness/**/requests_started.jsonl
+notebooks/llm_randomness/calibration_pool/pooled_flips.csv
+notebooks/llm_randomness/**/calibration_pool_snapshot.csv
+# Offline notebook derivatives can be regenerated from the bundled inputs.
+notebooks/llm_randomness/data/*.csv
+notebooks/llm_randomness/data/*.png
+notebooks/llm_randomness/derived/
+notebooks/llm_randomness/runs/*/data/*.csv
+notebooks/llm_randomness/runs/*/data/*.png
+notebooks/llm_randomness/new_run/
+notebooks/llm_randomness/new_pooled_run/

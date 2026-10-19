@@ -1,0 +1,70 @@
+{
+  "verified": true,
+  "calibration_records": 160000,
+  "historical_calibration_records": 91042,
+  "new_calibration_calls": 68958,
+  "new_production_calls": 80000,
+  "new_api_responses": 148958,
+  "http_attempts": 148991,
+  "attempt_status_counts": {
+    "ok:200": 148958,
+    "transport_error:None": 22,
+    "http_error:502": 10,
+    "http_error:500": 1
+  },
+  "total_tokens_new_calls": 3426034,
+  "sources": [
+    {
+      "source": "historical_pool",
+      "records": 91042,
+      "valid": 91042,
+      "plus_count": 50725,
+      "p_hat": 0.5571604314492212
+    },
+    {
+      "source": "new_calibration",
+      "records": 68958,
+      "valid": 68958,
+      "plus_count": 37358,
+      "p_hat": 0.5417500507555324
+    },
+    {
+      "source": "all_calibration",
+      "records": 160000,
+      "valid": 160000,
+      "plus_count": 88083,
+      "p_hat": 0.55051875
+    },
+    {
+      "source": "new_production",
+      "records": 80000,
+      "valid": 80000,
+      "plus_count": 44321,
+      "p_hat": 0.5540125
+    }
+  ],
+  "samples": 2000,
+  "flips_per_sample": 40,
+  "mean": 10.088840290304399,
+  "sample_standard_deviation": 2.0931291989105625,
+  "iid_standard_deviation_at_observed_production_p": 1.9985235640698082,
+  "variance_ratio_to_iid_binomial": 1.0969163898214636,
+  "min": 2.9940133855298923,
+  "max": 16.34389600729994,
+  "calibration_p_hat": 0.55051875,
+  "production_p_hat": 0.5540125,
+  "first_new_call_utc": "2026-10-18T22:58:49.931660+00:00",
+  "last_new_call_utc": "2026-10-18T23:16:41.489944+00:00",
+  "elapsed_seconds_new_calls": 1071.558284,
+  "models": {
+    "gpt-4.1-mini-2025-04-14": 148958
+  },
+  "fingerprints_new_calls": {
+    "fp_8957c4f4dd": 31772,
+    "fp_92f9364fa2": 117186
+  },
+  "no_calibration_input_reused_in_production": true,
+  "production_started_after_calibration_finished": true,
+  "all_provider_response_ids_unique": true,
+  "exports_match_raw_replies": true
+}

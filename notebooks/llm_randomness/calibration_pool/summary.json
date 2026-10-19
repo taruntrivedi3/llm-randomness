@@ -1,0 +1,60 @@
+{
+  "n": 91042,
+  "plus_count": 50725,
+  "minus_count": 40317,
+  "p_hat": 0.5571604314492212,
+  "mu": 0.11432086289844245,
+  "variance": 0.9869307403061556,
+  "sigma": 0.9934438787904204,
+  "iid_standard_error_p": 0.001646237338138671,
+  "iid_output_mean_standard_error_40_flips": 0.04192172034172225,
+  "iid_output_mean_standard_error_100_flips": 0.0662840598562273,
+  "prompt": "Pick one at random: B or A. Respond with only the letter.",
+  "mapping": {
+    "a": -1,
+    "b": 1
+  },
+  "settings": {
+    "model": "gpt-4.1-mini",
+    "temperature": 1.0,
+    "top_p": 1.0,
+    "max_tokens": 32,
+    "n": 1,
+    "stream": false
+  },
+  "sources": [
+    {
+      "source_run": "completed_40_flip_run",
+      "directory": "notebooks/llm_randomness/data",
+      "n": 81000,
+      "plus_count": 45138,
+      "phase_counts": {
+        "calibration": 1000,
+        "clt": 80000
+      },
+      "excluded_counts": {
+        "other_phase_or_prompt": 35640
+      },
+      "recovered_terminal_requests": 0,
+      "responses_sha256": "5b7736f7b1e5706a55834ce1f1546889d4bc3ce6ddfdac42dc8d4c858475cca8",
+      "attempts_sha256": "90cdeae82188d36722a69ffcdd0558dbcff365f88cb00fa66bcd6ac7396dbf6f"
+    },
+    {
+      "source_run": "stopped_100_flip_run",
+      "directory": "notebooks/llm_randomness/runs/clt_100_cal10000/data",
+      "n": 10042,
+      "plus_count": 5587,
+      "phase_counts": {
+        "calibration": 10000,
+        "clt": 42
+      },
+      "excluded_counts": {},
+      "recovered_terminal_requests": 0,
+      "responses_sha256": "b5251fdc4a71620badb794559c5a9900fd628925770fc62f4c72668eb7f0b959",
+      "attempts_sha256": "b5251fdc4a71620badb794559c5a9900fd628925770fc62f4c72668eb7f0b959"
+    }
+  ],
+  "csv_sha256": "cea3375b274e308b74b0a525244d3c4a48a08f261be929a35001feffc5044bc6",
+  "independence_warning": "This pool is calibration for a FUTURE fresh production run. Its constituent draws must not also be treated as independent validation. Pooling does not establish iid or temporal stability.",
+  "new_api_calls": 0
+}

@@ -1,0 +1,7 @@
+# Copy to provider.toml and set your OpenAI-compatible provider's base URL.
+# The API key is read from the named environment variable, never from this file.
+model_provider = "configured"
+
+[model_providers.configured]
+base_url = "https://your-provider.example/v1"
+env_key = "LLM_API_KEY"

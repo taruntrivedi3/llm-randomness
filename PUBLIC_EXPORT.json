@@ -1,0 +1,107 @@
+{
+  "changes": [
+    "Provider endpoints and transport-error details omitted",
+    "Absolute source paths made relative",
+    "Manifest hashes recomputed for public files",
+    "Notebook outputs regenerated in a fresh kernel",
+    "Collector config defaults made portable; new runs write separately"
+  ],
+  "files": [
+    {
+      "source": "llm_randomness/data/responses.jsonl",
+      "published": "notebooks/llm_randomness/data/responses.jsonl",
+      "original_sha256": "d0788dd9cf36e43465bad53f5a20c4bebcdf1b803c39982bc405a514fcde24e9",
+      "public_sha256": "5b7736f7b1e5706a55834ce1f1546889d4bc3ce6ddfdac42dc8d4c858475cca8"
+    },
+    {
+      "source": "llm_randomness/data/attempts.jsonl",
+      "published": "notebooks/llm_randomness/data/attempts.jsonl",
+      "original_sha256": "073e70d74e195ad62e2404f08ff28b39a62fd81f9d342559b33a599ee87b587d",
+      "public_sha256": "90cdeae82188d36722a69ffcdd0558dbcff365f88cb00fa66bcd6ac7396dbf6f"
+    },
+    {
+      "source": "llm_randomness/data/requests_started.jsonl",
+      "published": "notebooks/llm_randomness/data/requests_started.jsonl",
+      "original_sha256": "fa0656cb467efcdf1f50f74e3e3b86bd38324ea0db354ee787997f76fc1fba48",
+      "public_sha256": "76f74c2c1e33b2e30b37382a4540ef1e1cf1aade51dd75f88d3efecf44dd777b"
+    },
+    {
+      "source": "llm_randomness/data/manifest.json",
+      "published": "notebooks/llm_randomness/data/manifest.json",
+      "original_sha256": "9cd69fb6858fbfcf62f26a3a36e5c88e2ff69cc36bcd2a4685790d969b19bb9a",
+      "public_sha256": "aa876966dba2877f8fb72ed72e5477b6a63b95b4b097fbbe3f98e19b9e5703fa"
+    },
+    {
+      "source": "llm_randomness/runs/clt_100_cal10000/data/responses.jsonl",
+      "published": "notebooks/llm_randomness/runs/clt_100_cal10000/data/responses.jsonl",
+      "original_sha256": "5872e42a37106e0c07997d3832f4d7c75704d3c473eafabf2b5bd0519f4de92b",
+      "public_sha256": "b5251fdc4a71620badb794559c5a9900fd628925770fc62f4c72668eb7f0b959"
+    },
+    {
+      "source": "llm_randomness/runs/clt_100_cal10000/data/attempts.jsonl",
+      "published": "notebooks/llm_randomness/runs/clt_100_cal10000/data/attempts.jsonl",
+      "original_sha256": "5872e42a37106e0c07997d3832f4d7c75704d3c473eafabf2b5bd0519f4de92b",
+      "public_sha256": "b5251fdc4a71620badb794559c5a9900fd628925770fc62f4c72668eb7f0b959"
+    },
+    {
+      "source": "llm_randomness/runs/clt_100_cal10000/data/requests_started.jsonl",
+      "published": "notebooks/llm_randomness/runs/clt_100_cal10000/data/requests_started.jsonl",
+      "original_sha256": "f911a7af054a2b46a34d8d8e381fe4583f98bd2d31897cc530672640bd626706",
+      "public_sha256": "0aeae53ec6a2c7c7f1a73b6ed3bbc7dc1cada89c633cf29d4399bcf78f5ad905"
+    },
+    {
+      "source": "llm_randomness/runs/clt_40_cal160000/data/responses.jsonl",
+      "published": "notebooks/llm_randomness/runs/clt_40_cal160000/data/responses.jsonl",
+      "original_sha256": "07ea7bdfd2e391d4af383c8d95c9b3092f0c1165f2c49cf1b335bae67f4690b3",
+      "public_sha256": "1ca857c3a7cc6792d4ea5c14213691b3b7aa9ea79445fd68f7a9b3c9f26c45e6"
+    },
+    {
+      "source": "llm_randomness/runs/clt_40_cal160000/data/attempts.jsonl",
+      "published": "notebooks/llm_randomness/runs/clt_40_cal160000/data/attempts.jsonl",
+      "original_sha256": "8b76bbc7c446fb63e831bc24d88feed8a84ffc3e0620161676de60e12c5c02df",
+      "public_sha256": "f665368c3409d37dbbb8cb2f67c96243e313396dc7d78ae5c5749835e5ceb1bd"
+    },
+    {
+      "source": "llm_randomness/runs/clt_40_cal160000/data/requests_started.jsonl",
+      "published": "notebooks/llm_randomness/runs/clt_40_cal160000/data/requests_started.jsonl",
+      "original_sha256": "50c7616762b29298f36a52042f43e2c276e31ffaaaaeb8be67e9b60b7c40caa9",
+      "public_sha256": "d56f445097105497f65222755e328405f89250139ca2dbc1191779633944c9a7"
+    },
+    {
+      "source": "llm_randomness/calibration_pool/pooled_flips.csv",
+      "published": "notebooks/llm_randomness/calibration_pool/pooled_flips.csv",
+      "original_sha256": "cea3375b274e308b74b0a525244d3c4a48a08f261be929a35001feffc5044bc6",
+      "public_sha256": "cea3375b274e308b74b0a525244d3c4a48a08f261be929a35001feffc5044bc6"
+    },
+    {
+      "source": "llm_randomness/calibration_pool/summary.json",
+      "published": "notebooks/llm_randomness/calibration_pool/summary.json",
+      "original_sha256": "88d94b352159291a632510ec9964fac868308252d5affad88634da9c895dbcb1",
+      "public_sha256": "3ba3de02b4dbaa59a804b2b9189860ebe05a06486440077921c9f831a6681c95"
+    },
+    {
+      "source": "llm_randomness/runs/clt_100_cal10000/data/manifest.json",
+      "published": "notebooks/llm_randomness/runs/clt_100_cal10000/data/manifest.json",
+      "original_sha256": "095d2a3e9623be3404c56bbf6438ff893698fff0f7a1226654abb6bf1256fd68",
+      "public_sha256": "11a87d5a84cbfd61b9579d28676a5b063c440408f5adb95ea9e80a6079314f80"
+    },
+    {
+      "source": "llm_randomness/runs/clt_40_cal160000/data/manifest.json",
+      "published": "notebooks/llm_randomness/runs/clt_40_cal160000/data/manifest.json",
+      "original_sha256": "b45fae0e39266126954708e39012366f3c0ff2d59f6197bfb0d38c57b24d8eee",
+      "public_sha256": "2303b8bff0ed4dad9ce66d647f6aa6c2130d518837100a05beb43515644e24b4"
+    },
+    {
+      "source": "agent_normal_sampling_2000_data/responses.jsonl",
+      "published": "notebooks/agent_normal_sampling_2000_data/responses.jsonl",
+      "original_sha256": "f3dd7fac2c088d24ca5e8a6344f70af9214ffee12f014b63009e1a70ce7dbfb0",
+      "public_sha256": "f3dd7fac2c088d24ca5e8a6344f70af9214ffee12f014b63009e1a70ce7dbfb0"
+    },
+    {
+      "source": "agent_normal_sampling_2000_data/metadata.json",
+      "published": "notebooks/agent_normal_sampling_2000_data/metadata.json",
+      "original_sha256": "35f26573efeffad3e11bcea8ba4b6c89d715650c6f296964ecb695cc66c35b5c",
+      "public_sha256": "354f8a4434f1b29bcf55b427e60f952ba8d48842cda913df1ae4887a352f2305"
+    }
+  ]
+}
